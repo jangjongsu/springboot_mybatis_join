@@ -7,10 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-	글제목: ${boardIof.title }<br>
-	아이디: ${boardIof.writerid }<br>
-	글쓴이 이름: ${boardIof.memberDto.name }<br>
-	글쓴이 이메일: ${boardIof.memberDto.email }<br>
+	글제목: ${boardInfo.title }<br>
+	아이디: ${boardInfo.writerid }<br>
+	글쓴이 이름: ${boardInfo.memberDto.name }<br>
+	글쓴이 이메일: ${boardInfo.memberDto.email }<br>
 
 </body>
 </html>

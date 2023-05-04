@@ -24,6 +24,8 @@ public class TestController {
 		
 		System.out.println(boardDto.getMemberDto().getName());
 		
+		model.addAttribute("boardInfo", boardDto);
+		
 		return"joinTest";
 	} 
 	

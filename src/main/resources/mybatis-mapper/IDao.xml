@@ -19,7 +19,7 @@
 		
 		<collection property="memberDto" resultMap="memberDto"></collection>
 	</resultMap>
-	<select id="listDao" parameterType="com.jjscompany.mybatis_join.dto.boardDto" resultMap="boardDto">
+	<select id="listDao" parameterType="com.jjcompany.mybatis_join.dto.BoardDto" resultMap="boardDto">
 		
 		SELECT
 		 * 
